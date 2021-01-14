@@ -1,0 +1,377 @@
+  
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+@media (min-width: 981px) {
+    .L {
+		display: inline-block;
+	}
+	.M {
+		display: none;
+	}
+	.S {
+		display: none;
+	}
+}
+
+@media (min-width: 421px) and (max-width: 980px) {
+    .L {
+		display: none;
+	}
+	.M {
+		display: inline-block;
+	}
+	.S {
+		display: none;
+	}
+} 
+
+@media (max-width: 420px) {
+    .L {
+		display: none;
+	}
+	.M {
+		display: none;
+	}
+	.S {
+		display: inline-block;
+	}
+} 
+
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+main {
+	display: flex;
+}
+
+.bg_L {
+	display: flex;
+	position: absolute;
+	margin-left: calc(50% - 648px);
+	
+}
+
+.toolbar_L {
+	position: fixed;
+	z-index: 3;
+	margin-left: calc(100% - 280px);
+	margin-top: 70px;
+}
+
+.icon1_L {
+	position: fixed;
+	z-index: 4;
+	margin-left: calc(100% - 195px);
+	margin-top: 81px;
+}
+.icon2_L {
+	position: fixed;
+	z-index: 4;
+	margin-left: calc(100% - 140px);
+	margin-top: 81px;
+}
+
+.button1_L {
+    position: absolute;
+	margin-top: 382px;
+	margin-left: calc(50% - 128px);
+}
+
+.pic1_L {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+	margin-left: -486px;
+	margin-top: 800px;
+}
+
+.name_L {
+	position: absolute;
+	border: none;
+	outline: none;
+	background: none;
+	z-index: 3;
+	margin-left: calc(50% - 314px);
+	margin-top: 1198px;
+	
+}
+.email_L {
+	position: absolute;
+	border: none;
+	outline: none;
+	background: none;
+	z-index: 3;
+	margin-left: calc(50% - 314px);
+	margin-top: 1290px;
+	
+}
+.phone_L {
+	position: absolute;
+	border: none;
+	outline: none;
+	background: none;
+	z-index: 3;
+	margin-left: calc(50% - 314px);
+	margin-top: 1380px;
+	
+}
+.birth_L {
+	position: absolute;
+	border: none;
+	outline: none;
+	background: none;
+	z-index: 3;
+	margin-left: calc(50% - 314px);
+	margin-top: 1470px;
+	
+}
+.address_L {
+	position: absolute;
+	border: none;
+	outline: none;
+	background: none;
+	z-index: 3;
+	margin-left: calc(50% - 314px);
+	margin-top: 1560px;
+	
+}
+
+.center {
+	
+	position: absolute;
+	left: 50%;
+	
+	
+  }
+  
+  .buttonA_L {
+	z-index: 5;
+	
+	margin-top: 378px;
+	margin-left: -130px;
+	color: #fff;
+	text-decoration: none;
+	background-color: #000;
+	
+	border-radius: 0px;
+	font-weight: 800;
+	font-size: 24px;
+	font-family: serif;
+	text-transform: uppercase;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+  }
+
+/*M*/
+.bg_M {
+	display: flex;
+	position: absolute;
+	margin-left: calc(50% - 384px);
+	
+}
+
+.toolbar_M {
+	position: fixed;
+	z-index: 3;
+	margin-left: calc(100% - 190px);
+	margin-top: 38px;
+}
+
+.icon1_M {
+	position: fixed;
+	z-index: 3;
+	margin-left: calc(100% - 124px);
+	margin-top: 46px;
+}
+.icon2_M {
+	position: fixed;
+	z-index: 3;
+	margin-left: calc(100% - 80px);
+	margin-top: 46px;
+}
+
+.button1_M {
+	position: absolute;
+	
+	margin-top: 226px;
+	margin-left: calc(50% - 70px);
+}
+
+.pic1_M {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+	margin-left: -292px;
+	margin-top: 470px;
+}
+
+.name_M {
+	position: absolute;
+	border: none;
+	outline: none;
+	background: none;
+	z-index: 3;
+	margin-left: calc(50% - 186px);
+	margin-top: 702px;
+	
+}
+.email_M {
+	position: absolute;
+	border: none;
+	outline: none;
+	background: none;
+	z-index: 3;
+	margin-left: calc(50% - 186px);
+	margin-top: 758px;
+	
+}
+.phone_M {
+	position: absolute;
+	border: none;
+	outline: none;
+	background: none;
+	z-index: 3;
+	margin-left: calc(50% - 186px);
+	margin-top: 812px;
+	
+}
+.birth_M {
+	position: absolute;
+	border: none;
+	outline: none;
+	background: none;
+	z-index: 3;
+	margin-left: calc(50% - 186px);
+	margin-top: 866px;
+	
+}
+.address_M {
+	position: absolute;
+	border: none;
+	outline: none;
+	background: none;
+	z-index: 3;
+	margin-left: calc(50% - 186px);
+	margin-top: 920px;
+	
+}
+/*S*/
+
+
+.bg_S {
+	display: flex;
+	position: absolute;
+	margin-left: calc(50% - 197px);
+	
+}
+
+.toolbar_S {
+	position: fixed;
+	z-index: 3;
+	margin-left: calc(100% - 190px);
+	margin-top: 38px;
+}
+
+.icon1_S {
+	position: fixed;
+	z-index: 3;
+	margin-left: calc(100% - 140px);
+	margin-top: 44px;
+}
+.icon2_S {
+	position: fixed;
+	z-index: 3;
+	margin-left: calc(100% - 106px);
+	margin-top: 44px;
+}
+
+.button1_S {
+	position: absolute;
+	
+	margin-top: 94px;
+	margin-left: calc(50% - 62px);
+}
+
+.pic1_S {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+	margin-left: -156px;
+	margin-top: 208px;
+}
+
+.name_S {
+	position: absolute;
+	border: none;
+	outline: none;
+	background: none;
+	z-index: 3;
+	margin-left: calc(50% - 112px);
+	margin-top: 318px;
+	
+}
+.email_S {
+	position: absolute;
+	border: none;
+	outline: none;
+	background: none;
+	z-index: 3;
+	margin-left: calc(50% - 112px);
+	margin-top: 346px;
+	
+}
+.phone_S {
+	position: absolute;
+	border: none;
+	outline: none;
+	background: none;
+	z-index: 3;
+	margin-left: calc(50% - 112px);
+	margin-top: 374px;
+	
+}
+.birth_S {
+	position: absolute;
+	border: none;
+	outline: none;
+	background: none;
+	z-index: 3;
+	margin-left: calc(50% - 112px);
+	margin-top: 402px;
+	
+}
+.address_S {
+	position: absolute;
+	border: none;
+	outline: none;
+	background: none;
+	z-index: 3;
+	margin-left: calc(50% - 112px);
+	margin-top: 430px;
+	
+}
+
